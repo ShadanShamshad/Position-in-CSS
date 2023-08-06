@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q7 Solution</title>
+    <style>
+        img{
+            width: 50px;
+            height: 70px;
+            background-color:black;
+            padding: 15px 15px;
+            margin: 20px 20px;
+            
+         }
+        .container{
+            position: relative;
+        }
+        .secondimage:hover{
+            z-index: 1;
+        }
+        .secondimage:hover > img{
+            visibility: visible;
+        } 
+        h6{
+            font-size:12px;
+        }
+        .firstimage{
+            width: 150px;
+            height:200px;
+            position: absolute;
+            background-color: #2541f8;
+            top: 50px;
+            left: 80px;
+            color: black;
+            border: 5px solid black;
+            text-align: center;
+            font-weight: bold;
+        }
+        .secondimage{
+            width: 150px;
+            height:200px;
+            position: absolute;
+            background-color: #19e00b;
+            top: 100px;
+            left: 120px;
+            color: black;
+            border: 5px solid black;
+            text-align: center;
+            font-weight: bold;
+        }
+        .thirdimage{
+            width: 150px;
+            height:200px;
+            position: absolute;
+            background-color: #e9fc44;
+            top: 150px;
+            left: 160px;
+            color: black;
+            text-align: center;
+            font-weight: bold;
+            border: 5px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="firstimage">
+            <h6>card 1</h6>
+            <img  src="./pokemon card 1.avif" alt="">
+        </div>
+        <div class="secondimage" >
+            <h6>card 2</h6>
+            <img  src="./pokemon card 3.png" alt="">
+        </div>
+        <div class="thirdimage">
+            <h6>card 3</h6>
+            <img  src="./pokemon card 2.png" alt="">
+        </div>
+
+    </div>
+    
+</body>
+</html>
